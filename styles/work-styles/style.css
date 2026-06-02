@@ -1,0 +1,26 @@
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+
+.navigation__list {
+    display: flex;
+    padding-top: 3px;
+    gap: 23px;
+}
+
+.navigation__list-item-link {
+    border-bottom: solid 1px transparent;
+    transition: border-color 300ms ease;
+}
+
+.navigation__list-item-link:hover {
+    border-bottom: solid 1px black;
+}
