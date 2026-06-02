@@ -154,6 +154,16 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 60px;
+    position: relative;
+    z-index: 1;
+}
+.header-chain-link {
+    border-bottom: solid 1px transparent;
+    transition: border-color 300ms ease;
+}
+
+.header-chain-link:hover {
+    border-bottom: solid 1px rgb(255, 255, 255);
 }
 
 .footer__upper-links-text {
