@@ -148,11 +148,6 @@
     user-select: none;
 }
 
-.footer ::selection {
-    background-color: #F0EEDE;
-    color: black;
-}
-
 .footer__upper-links {
     padding: 20px 40px;
     display: flex;
